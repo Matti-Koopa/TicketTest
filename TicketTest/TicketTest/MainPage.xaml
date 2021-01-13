@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicketTest.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Hallo" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Nach dem Starten kann App gewechselt / Handy gesperrt werden"
+               MaxLines="5" FontSize="Title" Padding="30,10,30,10"/>
+        <Button x:Name="ButtonToggle" Clicked="Button_Clicked"/>
+        <Label x:Name="LabelOutput" Text="" FontSize="16" Padding="30,0,30,0"/>
+    </StackLayout>
+
+</ContentPage>
